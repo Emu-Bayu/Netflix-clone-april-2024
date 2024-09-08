@@ -1,0 +1,75 @@
+/* .Header_outer_container{
+   
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    /* height: 20vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1; */
+    /* background-color: blue; */
+/* }
+.header_left ul li {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.header_right{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+} */ 
+.Header_outer_container {
+    background-color: rgb(20, 20, 20);    
+    /* padding: 10px 20px; Adjust padding as needed */
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    /* Center items vertically */
+}
+
+.header_left {
+    display: flex;
+     /* Center items vertically */
+}
+
+.header_left ul {
+    display: flex;
+    list-style-type: none; 
+   
+}
+
+.header_left li {
+    margin-right: 20px; /* Space between menu items */
+    color: white; /* Text color */
+}
+
+.header_right {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.header_right ul {
+    display: flex;
+    list-style-type: none; /* Remove default list styling */
+   
+}
+
+.header_right li {
+    margin-left: 20px; /* Space between icons */
+    color: white; /* Icon color */
+}
