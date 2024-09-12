@@ -8,7 +8,7 @@ const [movie, setmovies]= useState({});
 useEffect(()=>{
     ( async()=>{
     try{const response= await axios.get(request.fetchnetflixorginals)
-        console.log(response)
+        console.log(response) // whole josen 
         setmovies(response.data.results[
             Math.floor(Math.random() *response.data.results.length)
         ]);console.log(setmovies)

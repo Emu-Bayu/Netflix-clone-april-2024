@@ -29,14 +29,16 @@
 } */ 
 .Header_outer_container {
     background-color: rgb(20, 20, 20);    
-    /* padding: 10px 20px; Adjust padding as needed */
+    padding: 10px 20px; 
     align-items: center;
     height: 10vh;
     position: sticky;
     top: 0;
+    background-color: transparent; 
 }
 
 .header_container {
+    
     display: flex;
     justify-content: space-between; /* Space between left and right */
     /* Center items vertically */
@@ -59,6 +61,7 @@
 }
 
 .header_right {
+    width: 140px;
     display: flex;
     align-items: center; /* Center items vertically */
 }

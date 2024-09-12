@@ -1,8 +1,4 @@
 .banner{
-    /* background-size: cover;
-    background-image: url("https://image.tmdb.org/t/p/original/{h0y3OzHzG4yNvn8u3Za6ByH8lrQ.jpg}");
-    background-position: center;
-    background-repeat: no-repeat; */
 
     margin-top: 10vh;
     height: 90vh;
@@ -30,7 +26,13 @@
     max-width: 300px;
     height: 80px;
 }
-.banner_button{
+
+.banner_buttons {
+    display: flex; /* Align buttons in a row */
+    gap: 1rem; /* Space between buttons */
+    
+}
+.banner_button{ 
     cursor: pointer;
     color: white;
     outline: none;
@@ -46,9 +48,9 @@
     color: #000;
     background-color: #fff;
 }
-.banner_buttons:hover{
+.banner_button:hover{
     color: #000;
-    background-color: #c6c6c6;
+    background-color: #817d7d;
     transition: all0.2s;
 
 }
